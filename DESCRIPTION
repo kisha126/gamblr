@@ -1,0 +1,37 @@
+Package: gamblr
+Type: Package
+Title: Grammar of Monte Carlo Simulation
+Version: 0.1.0
+Authors@R: c(
+    person("Joshua Marie", "Ongcoy", 
+           email = "joshuaongcoy26@gmail.com", 
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0009-0001-3318-1296")),
+    person("First1", "Last1", 
+           email = "yourself1@somewhere.net", 
+           role = "aut"),
+    person("First2", "Last2", 
+           email = "yourself2@somewhere.net", 
+           role = "aut")
+  )
+Maintainer: Joshua Marie Ongcoy <joshuaongcoy26@gmail.com>
+Description: A composable grammar for building Monte Carlo simulations, 
+    inspired by the grammar-of-graphics and tidyverse semantics design. 
+    The package allows for stepwise declarations of random variables, 
+    deterministic transformations, replication, collection, and analysis 
+    of simulated data. It supports reproducibility and HPC-aware design.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    rlang,
+    dplyr,
+    purrr,
+    tibble,
+    magrittr
+Suggests: 
+    testthat,
+    ggplot2
+License: MIT + file LICENSE

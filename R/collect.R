@@ -1,0 +1,6 @@
+collect <- function(
+    x,
+    ...,
+) {
+
+}
