@@ -1,6 +1,6 @@
 collect <- function(
     x,
-    ...,
+    ...
 ) {
 
 }
