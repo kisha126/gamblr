@@ -22,6 +22,7 @@ Description: A composable grammar for building Monte Carlo simulations,
     of simulated data. It supports reproducibility and HPC-aware design.
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.1.0)
